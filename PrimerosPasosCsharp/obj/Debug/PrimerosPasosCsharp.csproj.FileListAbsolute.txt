@@ -1,0 +1,10 @@
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\bin\Debug\PrimerosPasosCsharp.exe.config
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\bin\Debug\PrimerosPasosCsharp.exe
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\bin\Debug\PrimerosPasosCsharp.pdb
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.Form1.resources
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.Properties.Resources.resources
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.exe
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.pdb
