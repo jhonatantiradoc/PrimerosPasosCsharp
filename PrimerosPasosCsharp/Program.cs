@@ -16,7 +16,7 @@ namespace PrimerosPasosCsharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new App2.Persona());
         }
     }
 }
