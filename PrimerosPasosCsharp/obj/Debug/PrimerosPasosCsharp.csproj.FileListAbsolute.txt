@@ -10,3 +10,4 @@ C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj
 C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.pdb
 C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.App2.Persona.resources
 C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.App3.Notas.resources
+C:\Users\USER\Desktop\APRENDIENDO C#\PrimerosPasosCsharp\PrimerosPasosCsharp\obj\Debug\PrimerosPasosCsharp.App4.Clinica.resources

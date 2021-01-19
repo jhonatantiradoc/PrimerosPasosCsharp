@@ -118,7 +118,14 @@ namespace PrimerosPasosCsharp.App3
 
         private void TxtNota1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+                            (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // sólo permite un punto decimal
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
             }
@@ -126,7 +133,14 @@ namespace PrimerosPasosCsharp.App3
 
         private void TxtNota2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+                           (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // sólo permite un punto decimal
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
             }
@@ -134,7 +148,14 @@ namespace PrimerosPasosCsharp.App3
 
         private void TxtNota3_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+                           (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // sólo permite un punto decimal
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
             }

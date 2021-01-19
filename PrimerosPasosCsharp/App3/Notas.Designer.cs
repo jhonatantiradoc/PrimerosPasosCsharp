@@ -56,13 +56,13 @@
             this.TxtPromedio = new System.Windows.Forms.TextBox();
             this.LblMensaje = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.BtnNuevo = new System.Windows.Forms.Button();
-            this.BtnGuardar = new System.Windows.Forms.Button();
-            this.BtnCalcularYear = new System.Windows.Forms.Button();
-            this.BtnCalcularPromedio = new System.Windows.Forms.Button();
-            this.BtnMensaje = new System.Windows.Forms.Button();
-            this.BtnResumen = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.BtnResumen = new System.Windows.Forms.Button();
+            this.BtnMensaje = new System.Windows.Forms.Button();
+            this.BtnCalcularPromedio = new System.Windows.Forms.Button();
+            this.BtnCalcularYear = new System.Windows.Forms.Button();
+            this.BtnGuardar = new System.Windows.Forms.Button();
+            this.BtnNuevo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -254,7 +254,7 @@
             // TxtNota1
             // 
             this.TxtNota1.Location = new System.Drawing.Point(91, 297);
-            this.TxtNota1.MaxLength = 2;
+            this.TxtNota1.MaxLength = 5;
             this.TxtNota1.Name = "TxtNota1";
             this.TxtNota1.Size = new System.Drawing.Size(67, 20);
             this.TxtNota1.TabIndex = 18;
@@ -263,7 +263,7 @@
             // TxtNota2
             // 
             this.TxtNota2.Location = new System.Drawing.Point(91, 342);
-            this.TxtNota2.MaxLength = 2;
+            this.TxtNota2.MaxLength = 5;
             this.TxtNota2.Name = "TxtNota2";
             this.TxtNota2.Size = new System.Drawing.Size(67, 20);
             this.TxtNota2.TabIndex = 19;
@@ -272,7 +272,7 @@
             // TxtNota3
             // 
             this.TxtNota3.Location = new System.Drawing.Point(91, 390);
-            this.TxtNota3.MaxLength = 2;
+            this.TxtNota3.MaxLength = 5;
             this.TxtNota3.Name = "TxtNota3";
             this.TxtNota3.Size = new System.Drawing.Size(67, 20);
             this.TxtNota3.TabIndex = 20;
@@ -341,65 +341,17 @@
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
             // 
-            // BtnNuevo
+            // BtnSalir
             // 
-            this.BtnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnNuevo.ForeColor = System.Drawing.Color.Red;
-            this.BtnNuevo.Location = new System.Drawing.Point(21, 28);
-            this.BtnNuevo.Name = "BtnNuevo";
-            this.BtnNuevo.Size = new System.Drawing.Size(75, 23);
-            this.BtnNuevo.TabIndex = 0;
-            this.BtnNuevo.Text = "Nuevo";
-            this.BtnNuevo.UseVisualStyleBackColor = true;
-            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
-            // 
-            // BtnGuardar
-            // 
-            this.BtnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGuardar.ForeColor = System.Drawing.Color.Red;
-            this.BtnGuardar.Location = new System.Drawing.Point(112, 28);
-            this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(75, 23);
-            this.BtnGuardar.TabIndex = 1;
-            this.BtnGuardar.Text = "Guardar";
-            this.BtnGuardar.UseVisualStyleBackColor = true;
-            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
-            // 
-            // BtnCalcularYear
-            // 
-            this.BtnCalcularYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCalcularYear.ForeColor = System.Drawing.Color.Red;
-            this.BtnCalcularYear.Location = new System.Drawing.Point(207, 28);
-            this.BtnCalcularYear.Name = "BtnCalcularYear";
-            this.BtnCalcularYear.Size = new System.Drawing.Size(165, 23);
-            this.BtnCalcularYear.TabIndex = 2;
-            this.BtnCalcularYear.Text = "Calcular Año Nacimiento";
-            this.BtnCalcularYear.UseVisualStyleBackColor = true;
-            this.BtnCalcularYear.Click += new System.EventHandler(this.BtnCalcularYear_Click);
-            // 
-            // BtnCalcularPromedio
-            // 
-            this.BtnCalcularPromedio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCalcularPromedio.ForeColor = System.Drawing.Color.Red;
-            this.BtnCalcularPromedio.Location = new System.Drawing.Point(392, 28);
-            this.BtnCalcularPromedio.Name = "BtnCalcularPromedio";
-            this.BtnCalcularPromedio.Size = new System.Drawing.Size(130, 23);
-            this.BtnCalcularPromedio.TabIndex = 3;
-            this.BtnCalcularPromedio.Text = "Calcular Promedio";
-            this.BtnCalcularPromedio.UseVisualStyleBackColor = true;
-            this.BtnCalcularPromedio.Click += new System.EventHandler(this.BtnCalcularPromedio_Click);
-            // 
-            // BtnMensaje
-            // 
-            this.BtnMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMensaje.ForeColor = System.Drawing.Color.Red;
-            this.BtnMensaje.Location = new System.Drawing.Point(546, 28);
-            this.BtnMensaje.Name = "BtnMensaje";
-            this.BtnMensaje.Size = new System.Drawing.Size(115, 23);
-            this.BtnMensaje.TabIndex = 4;
-            this.BtnMensaje.Text = "Ver Mensaje";
-            this.BtnMensaje.UseVisualStyleBackColor = true;
-            this.BtnMensaje.Click += new System.EventHandler(this.BtnMensaje_Click);
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.Color.Red;
+            this.BtnSalir.Location = new System.Drawing.Point(815, 28);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(115, 23);
+            this.BtnSalir.TabIndex = 6;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // BtnResumen
             // 
@@ -413,17 +365,65 @@
             this.BtnResumen.UseVisualStyleBackColor = true;
             this.BtnResumen.Click += new System.EventHandler(this.BtnResumen_Click);
             // 
-            // BtnSalir
+            // BtnMensaje
             // 
-            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.ForeColor = System.Drawing.Color.Red;
-            this.BtnSalir.Location = new System.Drawing.Point(815, 28);
-            this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(115, 23);
-            this.BtnSalir.TabIndex = 6;
-            this.BtnSalir.Text = "Salir";
-            this.BtnSalir.UseVisualStyleBackColor = true;
-            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            this.BtnMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMensaje.ForeColor = System.Drawing.Color.Red;
+            this.BtnMensaje.Location = new System.Drawing.Point(546, 28);
+            this.BtnMensaje.Name = "BtnMensaje";
+            this.BtnMensaje.Size = new System.Drawing.Size(115, 23);
+            this.BtnMensaje.TabIndex = 4;
+            this.BtnMensaje.Text = "Ver Mensaje";
+            this.BtnMensaje.UseVisualStyleBackColor = true;
+            this.BtnMensaje.Click += new System.EventHandler(this.BtnMensaje_Click);
+            // 
+            // BtnCalcularPromedio
+            // 
+            this.BtnCalcularPromedio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCalcularPromedio.ForeColor = System.Drawing.Color.Red;
+            this.BtnCalcularPromedio.Location = new System.Drawing.Point(392, 28);
+            this.BtnCalcularPromedio.Name = "BtnCalcularPromedio";
+            this.BtnCalcularPromedio.Size = new System.Drawing.Size(130, 23);
+            this.BtnCalcularPromedio.TabIndex = 3;
+            this.BtnCalcularPromedio.Text = "Calcular Promedio";
+            this.BtnCalcularPromedio.UseVisualStyleBackColor = true;
+            this.BtnCalcularPromedio.Click += new System.EventHandler(this.BtnCalcularPromedio_Click);
+            // 
+            // BtnCalcularYear
+            // 
+            this.BtnCalcularYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCalcularYear.ForeColor = System.Drawing.Color.Red;
+            this.BtnCalcularYear.Location = new System.Drawing.Point(207, 28);
+            this.BtnCalcularYear.Name = "BtnCalcularYear";
+            this.BtnCalcularYear.Size = new System.Drawing.Size(165, 23);
+            this.BtnCalcularYear.TabIndex = 2;
+            this.BtnCalcularYear.Text = "Calcular Año Nacimiento";
+            this.BtnCalcularYear.UseVisualStyleBackColor = true;
+            this.BtnCalcularYear.Click += new System.EventHandler(this.BtnCalcularYear_Click);
+            // 
+            // BtnGuardar
+            // 
+            this.BtnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGuardar.ForeColor = System.Drawing.Color.Red;
+            this.BtnGuardar.Location = new System.Drawing.Point(112, 28);
+            this.BtnGuardar.Name = "BtnGuardar";
+            this.BtnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.BtnGuardar.TabIndex = 1;
+            this.BtnGuardar.Text = "Guardar";
+            this.BtnGuardar.UseVisualStyleBackColor = true;
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
+            // 
+            // BtnNuevo
+            // 
+            this.BtnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNuevo.ForeColor = System.Drawing.Color.Red;
+            this.BtnNuevo.Location = new System.Drawing.Point(21, 28);
+            this.BtnNuevo.Name = "BtnNuevo";
+            this.BtnNuevo.Size = new System.Drawing.Size(75, 23);
+            this.BtnNuevo.TabIndex = 0;
+            this.BtnNuevo.Text = "Nuevo";
+            this.BtnNuevo.UseVisualStyleBackColor = true;
+            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
             // 
             // Notas
             // 

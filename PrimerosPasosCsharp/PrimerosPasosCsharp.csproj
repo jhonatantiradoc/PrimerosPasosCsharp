@@ -60,6 +60,13 @@
       <DependentUpon>Notas.cs</DependentUpon>
     </Compile>
     <Compile Include="App3\NotasClass.cs" />
+    <Compile Include="App4\Clinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App4\Clinica.Designer.cs">
+      <DependentUpon>Clinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App4\ClinicaClass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="App3\Notas.resx">
       <DependentUpon>Notas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App4\Clinica.resx">
+      <DependentUpon>Clinica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
