@@ -21,5 +21,7 @@ namespace PrimerosPasosCsharp.App2
         public float Peso { get => peso; set => peso = value; }
         public string Color { get => color; set => color = value; }
         public string Genero { get => genero; set => genero = value; }
+
+        
     }
 }
